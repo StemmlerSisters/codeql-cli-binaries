@@ -17,6 +17,18 @@
      you know what to do).
 -->
 
+## Release 2.27.1 (2026-09-22)
+
+### Miscellaneous
+
+- The build of Eclipse Temurin OpenJDK that is used to run the CodeQL
+  CLI has been updated to version 25.0.4.1.
+
+  New Java releases may not be completely backwards compatible. For example,
+  Java 25 has a known issue that affects symlink resolution on mapped drives
+  on Windows (JDK-8355342). Users impacted by such regressions can run CodeQL
+  with an alternative JDK using the CODEQL_JAVA_HOME environment variable.
+
 ## Release 2.27.0 (2026-09-09)
 
 ### New Features
